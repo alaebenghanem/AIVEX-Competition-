@@ -1,16 +1,16 @@
 <div align="center">
 
-# ♾️ Infinity Club
+# 🏆 AIVEX — National AI Innovation & Development Tournament
 
-**The official web presence of Infinity Club — Faculty of MI, University of El Bashir El Ibrahimi (Bordj Bou Arréridj).**  
-*Hosting **AIVEX** — National AI Innovation & Development Tournament.*
+**Official competition website organized by Infinity Club — Faculty of MI, University of El Bashir El Ibrahimi (BBA).**  
+*15 university teams · 3 days · 1 AI challenge.*
 
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
 [![Three.js](https://img.shields.io/badge/Three.js-r185-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 [![Blender](https://img.shields.io/badge/Blender-3D%20%26%20Animation-F5792A?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org/)
 [![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
-[![License](https://img.shields.io/badge/License-MIT-crimson?style=for-the-badge)](../LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-crimson?style=for-the-badge)](LICENSE)
 
 </div>
 
@@ -18,28 +18,28 @@
 
 ## 📸 Preview
 
-### Desktop Experience
+### Desktop
 
-| 3D Model Hero & Stats | Flipping Event Cards | Video Transformation |
+| Aivex competition information | Team & Delegation Registration | Connect With Us |
 | :---: | :---: | :---: |
-| ![3D Queen Model](src/assets/3D%20model.png) | ![Flipping Cards](src/assets/flipping%20cards.png) | ![Video Transformation](src/assets/vid%20transformation.png) |
-
-| Team Registration | Connect Section |
-| :---: | :---: |
-| ![Team Registration](src/assets/registration.png) | ![Connect Section](src/assets/connect.png) |
+| ![About AIVEX Section](infinity-club/src/assets/3D%20model.png) | ![Registration Form](infinity-club/src/assets/registration.png) | ![Connect Section](infinity-club/src/assets/connect.png) |
 
 ### Responsive Design
 
-| **Tablet View (iPad)** | **Mobile View (Hero)** | **Mobile View (Connect)** |
-| :---: | :---: | :---: |
-| ![iPad Responsive](src/assets/ipad%20responsive.png) | ![Phone Responsive](src/assets/phone%20responsive.png) | ![Mobile Connect](src/assets/mobile-connect.png) |
+| **Tablet — Hero** | **Tablet — Mobile Nav & Cards** |
+| :---: | :---: |
+| ![iPad Hero](infinity-club/src/assets/D.png) | ![iPad Cards](infinity-club/src/assets/flipping%20cards.png) |
+
+| **Mobile — Hero** | **Mobile — Connect & Footer** |
+| :---: | :---: |
+| ![Phone Hero](infinity-club/src/assets/phone%20responsive.png) | ![Phone Connect](infinity-club/src/assets/mobile-connect.png) |
 
 ---
 
 ## ✨ Features
 
 - ♾️ **Hand-crafted 3D Queen & Pawn** — Fully modeled, sculpted, textured, and animated in Blender, rendered smoothly in real-time with Three.js (WebGL, smooth vertex normals, gold rim lighting, and studio shadows).
-- 🎬 **Pawn-to-Queen Transformation** — Embedded video animation honoring the club's motto: *"Every Queen was once a pawn. Enter the competition and make your move."*
+- 🎬 **Pawn-to-Queen Transformation** — Embedded video animation honoring the competition's motto: *"Every Queen was once a pawn. Enter the competition and make your move."*
 - 🃏 **Flipping Event Cards** — Interactive CSS 3D cards that flip 180° on hover to reveal timeline stages and schedule details for the AIVEX tournament.
 - 📋 **Team & Delegation Registration** — Dynamic multi-participant registration system with real-time validation and persistent storage powered by Supabase.
 - 📱 **Fully Responsive Layout** — Fluid presentation across widescreen desktops, tablets, and smartphones with an animated mobile navigation drawer.
@@ -52,12 +52,11 @@
 | Layer | Technology | Description |
 |---|---|---|
 | **Frontend Framework** | **React 19** | Component-driven architecture and hooks-based state management |
-| **3D Modeling & Animation** | **Blender** | High-precision mesh sculpting, PBR materials, and transformation animation |
+| **3D Modeling & Animation** | **Blender** | High-precision mesh sculpting, PBR materials, and animation |
 | **3D Web Rendering** | **Three.js (r185)** | GLTFLoader, OrbitControls, custom multi-point lighting, and ACESFilmic tone mapping |
 | **Backend & Database** | **Supabase** | Cloud database persistence for registrations via `@supabase/supabase-js` |
 | **Build Tooling** | **Vite 8** | High-speed bundler with Fast Refresh (HMR) |
 | **Styling** | **Pure CSS3** | Custom design system using CSS variables, 3D perspective transforms, and glassmorphism |
-| **Code Quality** | **ESLint** | Strict linting rules with React Hooks & React Refresh plugins |
 
 ---
 
@@ -65,8 +64,6 @@
 
 - 🧊 **Custom 3D Blender Pipeline**: The signature mechanical chess pieces were sculpted and animated from scratch in Blender, exported as binary `.glb` containers, and rendered in the browser with `GLTFLoader` and `AnimationMixer`.
 - 💡 **Dynamic Lighting & Shaders**: Studio-grade lighting setup featuring ambient illumination, directional key light with PCF soft shadows, warm gold rim highlights, and ACESFilmic tone mapping.
-- 📐 **Adaptive Three.js Viewport**: Smooth camera calculations and dynamic canvas resizing avoid aspect ratio distortion on mobile, tablet, and high-DPI displays.
-- 🛡️ **Resilient Registration**: Multi-tiered participant and delegation form handling with live field verification, sanitized inputs, and Supabase database submission with toast feedback.
 
 ---
 
